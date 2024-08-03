@@ -1,8 +1,9 @@
 import styles from './Cabecalho.module.css'
+import logo from '/src/assets/img/olimpiadas.png'
 const Cabecalho = () => {
   return (
     <header className={styles.Cabecalho}>
-      <img src="/src/assets/img/olimpiadas.png" alt="icone olimpiadas" className={styles.Icon}/>
+      <img src={logo} alt="icone olimpiadas" className={styles.Icon}/>
       
     </header>
   );
