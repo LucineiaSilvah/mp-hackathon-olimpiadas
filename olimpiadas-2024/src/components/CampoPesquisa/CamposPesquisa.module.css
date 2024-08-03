@@ -1,0 +1,12 @@
+.CampoPesquisa{
+   width:90% ;
+   margin: 2rem auto;
+    display: flex;
+    background: var(--branco);
+    border-radius: 5px;
+}
+.CampoPesquisa input{
+    width: 100%;
+    border: none;
+    margin-left: 2px;
+}

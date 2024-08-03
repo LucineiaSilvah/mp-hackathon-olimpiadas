@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import styles from './Principal.module.css';
 import Card from '../Card/Card';
-
-const Principal = () => {
+import CampoPesquisa from '../CampoPesquisa/CampoPesquisa'
+const Principal = ({valor}) => {
   const [data,setData] = useState([]);
 
 
@@ -16,9 +16,24 @@ const Principal = () => {
     })
   )
   },[])
+  
+
+const buscar = ()=>{
+ //setValor(valor)
+ alert('ok')
+  
+}
+
+
   return (
     <main className={styles.Principal}>
         <h1>Jogos Olimpicos Paris</h1>
+       <CampoPesquisa
+       onClick={buscar}
+       
+       
+         />
+         
        <section className={styles.Box}>
 
           {data.map(item =>(
