@@ -1,6 +1,8 @@
 .Principal{
   width: 100%;
   font-family: cursive;
+  height: 100%;
+  
 }
 .Principal h1{
   text-align: center;
@@ -14,24 +16,30 @@
    gap: 20px;
    padding: 3rem;
    grid-template-columns: repeat(8, 1fr);
+   height: auto;
+}
+.SemResultado{
+  width: 90vw;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
 }
 
 @media screen and (min-width:0) and (max-width:600px) {
   .Box{
     width: 100%;
     display: grid;
-    gap: 20px;
-    padding: 1rem;
+    gap: 10px;
+    padding: 0 .5rem;
     grid-template-columns: repeat(2, 1fr);
  }
 }
 
 @media screen  and (min-width:601px) and (max-width:900px){
   .Box{
-    width: 100%;
-    display: grid;
-    gap: 20px;
-    padding: 1rem;
     grid-template-columns: repeat(4, 1fr);
  }
 }

@@ -1,5 +1,5 @@
 import styles from './Cabecalho.module.css'
-import logo from '/src/assets/img/olimpiadas.png'
+import logo from '/src/assets/img/2024_Summer_Olympics_logo.svg.png'
 const Cabecalho = () => {
   return (
     <header className={styles.Cabecalho}>

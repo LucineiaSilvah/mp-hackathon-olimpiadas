@@ -1,8 +1,8 @@
 .Cabecalho{
   width: 100%;
   padding:0 3rem;
- background: #000;
+  backdrop-filter:blur(10px);
 }
 .Icon{
-  width: 100px;
+  width: 80px;
 }

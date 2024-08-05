@@ -2,7 +2,8 @@
   --gold:#D5B48E;
   --preto: #000000;
   --branco:#ffffff;
-  background: url('/src/assets/img/bg-paris.jpeg')no-repeat center / cover; 
+  background: url('/src/assets/img/Default_Against_a_rich_luxurious_background_of_bright_vibrant_3.jpg')no-repeat center / cover;
+  height: 100%;
 
 }
 *{

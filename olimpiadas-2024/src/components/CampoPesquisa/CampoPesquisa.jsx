@@ -1,24 +1,28 @@
 import styles from './CamposPesquisa.module.css'
 import lupa from '/src/assets/img/lupa.png'
 import {useState} from 'react'
-const CampoPesquisa = ({v,onChange,onClick}) => {
+const CampoPesquisa = ({onPesquisa}) => {
 
-const [valor,setValor]= useState('');
+const [valorInput,setValorInput]= useState('');
 
-const  handleValorChange = ()=>{
-  setValor(onChange)
+const  handleChange = (e)=>{
+  setValorInput(e.target.value)
+  
 }
 
-
+const  handleClick = ()=>{
+  onPesquisa(valorInput)
+  
+}
 
     return(
        <div className={styles.CampoPesquisa}>
            <input type="search"
-           value={v} 
-           onChange={onChange}
+           value={valorInput} 
+           onChange={handleChange}
             id="pesquisar"
             placeholder="Ex: BRA, JPN"
-            /> <img onClick={onClick} width="30px" src={lupa} alt=""/>
+            /> <img onClick={handleClick} width="30px" src={lupa} alt=""/>
            
        </div>
         

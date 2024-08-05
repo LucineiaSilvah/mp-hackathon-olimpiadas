@@ -8,5 +8,7 @@ prata
 <a href="https://www.flaticon.com/br/icones-gratis/medalha-de-prata" title="medalha de prata ícones">Medalha de prata ícones criados por Freepik - Flaticon</a>
 bronze
 <a href="https://www.flaticon.com/br/icones-gratis/medalha-de-bronze" title="medalha de bronze ícones">Medalha de bronze ícones criados por Freepik - Flaticon</a>
+total 
+<a href="https://www.flaticon.com/br/icones-gratis/medalha" title="medalha ícones">Medalha ícones criados por Freepik - Flaticon</a>
 lupa
 <a href="https://www.flaticon.com/br/icones-gratis/lupa" title="lupa ícones">Lupa ícones criados por vectorspoint - Flaticon</a>
