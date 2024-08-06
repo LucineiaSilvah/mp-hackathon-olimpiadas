@@ -2,7 +2,7 @@
 import styles from './CamposPesquisa.module.css'
 import lupa from '/src/assets/img/lupa.png'
 import {useState} from 'react'
-const CampoPesquisa = ({onPesquisa}) => {
+const CampoPesquisa = ({onPesquisa,onClick}) => {
 
 const [valorInput,setValorInput]= useState('');
 
@@ -12,7 +12,7 @@ const  handleChange = (e)=>{
 }
 
 const  handleClick = ()=>{
-  onPesquisa(valorInput)
+  onPesquisa(valorInput.toUpperCase())
   
 }
 
@@ -27,8 +27,9 @@ const  handleClick = ()=>{
             id="pesquisar"
             placeholder="Ex: BRA, JPN"
             /> <img onClick={handleClick} width="30px" src={lupa} alt=""/>
-           
+            <button className={styles.Todos} onClick={onClick}>Todos</button>
        </div>
+    
       
       </>
         
