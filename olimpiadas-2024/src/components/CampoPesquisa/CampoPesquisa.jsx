@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styles from './CamposPesquisa.module.css'
 import lupa from '/src/assets/img/lupa.png'
 import {useState} from 'react'
@@ -16,7 +17,10 @@ const  handleClick = ()=>{
 }
 
     return(
+      <>
+       
        <div className={styles.CampoPesquisa}>
+      
            <input type="search"
            value={valorInput} 
            onChange={handleChange}
@@ -25,6 +29,8 @@ const  handleClick = ()=>{
             /> <img onClick={handleClick} width="30px" src={lupa} alt=""/>
            
        </div>
+      
+      </>
         
     )
 }

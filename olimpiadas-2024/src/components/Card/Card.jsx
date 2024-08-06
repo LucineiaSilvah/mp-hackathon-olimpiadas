@@ -10,7 +10,8 @@ import  mTotal from '/src/assets/img/medalhas.png'
   return (
     <div className={styles.Card}>
       <div>
-        <img className={styles.Bandeira} src={dados.flag_url} alt="" />{dados.name}
+        <span className={styles.Titulo}> <img className={styles.Bandeira} src={dados.flag_url} alt="" />{dados.name}</span>
+       
      <span className={styles.Medalhas}>
      <img width={'30px'} src={mOuro} alt="medalha-de-ouro"/>{dados.gold_medals}
      

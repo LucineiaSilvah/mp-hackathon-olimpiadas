@@ -1,9 +1,17 @@
 .Container{
-  width: 100%;
+  width: 90%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url('/src/assets/img/Default_Against_a_rich_luxurious_background_of_bright_vibrant_3.jpg')no-repeat center / cover; 
-  height: 100%;
+  /* border:  5px solid black; */
+
   
+}
+
+@media screen  and (min-width:300px){
+  .Container {
+    width: auto;
+    font-size: 1rem;
+  }
 }

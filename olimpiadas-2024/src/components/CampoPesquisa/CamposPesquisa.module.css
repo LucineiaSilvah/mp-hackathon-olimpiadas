@@ -1,6 +1,7 @@
 .CampoPesquisa{
-   width:90% ;
-   margin: 2rem auto;
+   width:500px ;
+   margin:3rem auto;
+   padding: 1.2rem;
     display: flex;
     background: var(--branco);
     border-radius: 5px;
@@ -8,5 +9,6 @@
 .CampoPesquisa input{
     width: 100%;
     border: none;
+    font-size: 1.2rem;
     margin-left: 2px;
 }

@@ -3,7 +3,7 @@ import styles from './Principal.module.css';
 import Card from '../Card/Card';
 import CampoPesquisa from '../CampoPesquisa/CampoPesquisa';
 
-const Principal = ({value}) => {
+const Principal = () => {
   const [data,setData] = useState([]);
   const [pesquisaId,setPesquisaId] = useState('');
   
@@ -24,16 +24,12 @@ const dadosFiltrados = pesquisaId ? data.filter(item=> item.id.toString() === pe
 const  handlePesquisa=(id)=>{
   setPesquisaId(id)
 }
-const buscar = ()=>{
- setValor(value)
- alert(valor)
- 
-}
+
 
 
   return (
     <main className={styles.Principal}>
-        <h1>Jogos Olimpicos Paris</h1>
+       <h2 className={styles.SubTitulo}>Consultar medalhas Por Pais</h2>
        <CampoPesquisa
        onPesquisa={handlePesquisa}
        

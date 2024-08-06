@@ -1,9 +1,10 @@
 :root{
   --gold:#D5B48E;
+  --silver:#EEEEEA;
   --preto: #000000;
   --branco:#ffffff;
-  background: url('/src/assets/img/Default_Against_a_rich_luxurious_background_of_bright_vibrant_3.jpg')no-repeat center / cover;
-  height: 100%;
+  background: url('/src/assets/img/Default_A_dramatic_and_moody_illustration_featuring_a_dark_bac_1.jpg');
+  
 
 }
 *{

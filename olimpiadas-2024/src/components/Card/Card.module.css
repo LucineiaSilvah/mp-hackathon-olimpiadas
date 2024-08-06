@@ -1,34 +1,52 @@
 .Card{
-  
+  width: 250px;
   color: var(--branco);
   font-weight: bold;
   border-radius: 20px;
   padding:0 ;
-  border: 2px solid var(--gold);
+  border: 2px solid var(--silver);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   box-shadow: 0 4px 15px #000000;
   text-shadow: -1px 2px 8px var(--preto);
-  background: url('/src/assets/img/Default_A_dramatic_and_moody_illustration_featuring_a_dark_bac_1.jpg')no-repeat center / cover;
+  background: url('/src/assets/img/Default_Against_a_rich_luxurious_background_of_bright_vibrant_3.jpg')no-repeat center / cover;
   justify-content: space-between;
-  height: 300px;
+  height: 200px;
+  padding: .5rem;
   overflow: hidden;
 }
+.Titulo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
 .Bandeira{
-  width:100%;
+  width:50px;
+  border-radius: 10%;
   height: 50px;
-  
+  margin: .5rem;
  
 }
 .Medalhas{
   display: flex;
+  align-items: center;
   justify-content: space-around;
   backdrop-filter: blur(15px);
 }
 .Detalhes{
-  display: block;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
   backdrop-filter: blur(15px);
-  padding-left: 5BRApx;
+ 
+}
+
+@media screen  and (min-width:0) and (max-width:700px){
+  .Card {
+    width: 200px;
+    font-size: 1rem;
+  }
 }
