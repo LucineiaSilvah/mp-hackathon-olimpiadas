@@ -8,11 +8,11 @@ function App() {
 
   return (
     <>
-      <div className={styles.Container}>
          <Cabecalho/>
+      <div className={styles.Container}>
          <Principal/>
-         <Rodape/>
       </div>
+         <Rodape/>
     </>
   )
 }

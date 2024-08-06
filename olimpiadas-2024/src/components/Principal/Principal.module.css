@@ -1,7 +1,7 @@
 .Principal{
   width: 100%;
   font-family: cursive;
-  height: 100%;
+
   
 }
 .SubTitulo{
@@ -16,7 +16,7 @@
    align-items: center;
    justify-content: center;
    gap: 2rem;
-   height: auto;
+ 
    /* border:  5px solid red; */
 }
 .SemResultado{
@@ -32,6 +32,6 @@
 }
 
 @media screen and (min-width:0) and (max-width:600px) {
-
+  
 }
 

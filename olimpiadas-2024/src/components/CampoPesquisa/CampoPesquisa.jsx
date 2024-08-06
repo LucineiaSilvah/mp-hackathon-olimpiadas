@@ -26,7 +26,7 @@ const  handleClick = ()=>{
            onChange={handleChange}
             id="pesquisar"
             placeholder="Ex: BRA, JPN"
-            /> <img onClick={handleClick} width="30px" src={lupa} alt=""/>
+            /> <img onClick={handleClick} className={styles.Lupa} src={lupa} alt=""/>
             <button className={styles.Todos} onClick={onClick}>Todos</button>
        </div>
     

@@ -26,19 +26,27 @@
     font-size: 1.2rem;
     margin-left: 2px;
 }
-
+.Lupa{
+    width: 50px;
+}
 @media screen and (min-width:0) and (max-width:600px) {
     .CampoPesquisa{
-        width:90% ;
+        width:70% ;
        padding: .4rem;
          display: flex;
          background: var(--branco);
          border-radius: 5px;
          position: relative;
+    
+     }
+     .Lupa{
+    scale: 0.6;
+
      }
      .Todos{
       position: static;
       padding: 1rem;
       font-size: 1rem;
      }
+
 }
