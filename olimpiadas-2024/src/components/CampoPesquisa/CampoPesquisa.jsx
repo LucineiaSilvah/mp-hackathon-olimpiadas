@@ -19,14 +19,14 @@ const  handleClick = ()=>{
     return(
       <>
        
-       <div className={styles.CampoPesquisa}>
+       <div className={styles.Campo}>
       
-           <input type="search"
+           <input className={styles.CampoPesquisa} type="search"
            value={valorInput} 
            onChange={handleChange}
             id="pesquisar"
             placeholder="Ex: BRA, JPN"
-            /> <img onClick={handleClick} className={styles.Lupa} src={lupa} alt=""/>
+            /><button className={styles.Busca} onClick={handleClick}  type="button">  <img className={styles.Lupa} src={lupa} alt="imagem lupa"/></button>
             <button className={styles.Todos} onClick={onClick}>Todos</button>
        </div>
     
