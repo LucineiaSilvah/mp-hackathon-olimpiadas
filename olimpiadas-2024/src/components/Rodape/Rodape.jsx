@@ -4,7 +4,7 @@ const Rodape = () => {
   return (
     <footer className={styles.Rodape}>
       <div>
-        <img className={styles.Logo} src="/src/assets/img/2024_Summer_Olympics_logo.svg.png" alt="" />
+        <img className={styles.Logo} src="/src/assets/img/2024_Summer_Olympics_logo.svg.png" alt="logo olimpiadas" />
       </div>
       <div className={styles.Detalhes}>
 

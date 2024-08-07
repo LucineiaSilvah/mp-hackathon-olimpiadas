@@ -29,8 +29,6 @@
   font-size: .8rem;
   gap: 10px;
  margin-top: 3rem;
-  background:#202425;
-
-
+ background:linear-gradient(90deg,black , rgb(252, 248, 224),black,black);
   }
 }
