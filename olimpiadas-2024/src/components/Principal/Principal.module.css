@@ -17,11 +17,17 @@
    align-items: center;
    justify-content: center;
    gap: 2rem;
+  
+   /* border:  5px solid red; */
+}
+.Box .SemResultado{
+background: #000;
+
  
    /* border:  5px solid red; */
 }
 .SemResultado{
-  width: 90vw;
+  width: 100vh;
   display: flex;
   margin: auto;
   align-items: center;
