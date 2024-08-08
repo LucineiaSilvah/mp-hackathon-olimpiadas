@@ -29,15 +29,19 @@ const buscarTodos = ()=>{
  setPesquisaId('')
 }
 
+
+
   return (
     <main className={styles.Principal}>
-       <h2 className={styles.SubTitulo}>Consultar medalhas Por Pais</h2>
+       <h2 className={styles.SubTitulo}>Consultar medalhas Por País</h2>
        <CampoPesquisa
        onPesquisa={handlePesquisa}
        onClick={buscarTodos}
        
+    
          />
-     
+        
+       
        <section className={styles.Box}> {dadosFiltrados.length > 0 ? ( dadosFiltrados.map(item => ( <Card key={item.id} dados={item} /> )) ) : ( 
        <div className={styles.SemResultado}>
         <p >Nenhum resultado encontrado</p> 
