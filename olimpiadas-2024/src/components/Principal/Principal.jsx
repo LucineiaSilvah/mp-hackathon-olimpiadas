@@ -33,7 +33,7 @@ const buscarTodos = ()=>{
 
   return (
     <main className={styles.Principal}>
-       <h2 className={styles.SubTitulo}>Consultar medalhas Por Pais</h2>
+       <h2 className={styles.SubTitulo}>Consultar medalhas Por País</h2>
        <CampoPesquisa
        onPesquisa={handlePesquisa}
        onClick={buscarTodos}
