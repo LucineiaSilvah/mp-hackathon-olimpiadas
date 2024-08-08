@@ -31,7 +31,7 @@ const handleBlur=()=>{
 
 const  handleClick = ()=>{
   onPesquisa(valorInput.toUpperCase())
-  
+  setValorInput("");
 }
 
     return(
@@ -51,9 +51,10 @@ const  handleClick = ()=>{
        </div>
        
       {focus &&
-      
+     <div className={styles.DicaBox} >
+     <p>*Dica de Pesquisa</p>
     <ul className={styles.Dica}>
-
+      
       <li>EUA (Estados Unidos)</li>
       <li>CHN (China)</li>
       <li>JPN (Japão)</li>
@@ -70,7 +71,7 @@ const  handleClick = ()=>{
       <li>SWE (Suécia)</li>
       <li>NZL (Nova Zelândia) </li> 
     </ul>
-      
+     </div> 
       }
      
  

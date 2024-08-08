@@ -46,7 +46,11 @@
     width: 30px;
     
 }
-
+.DicaBox{
+    
+    text-align:center;
+	color:var(--silver);
+}
 .Dica{
     margin:auto;
     flex-wrap: wrap-reverse;
@@ -62,11 +66,11 @@
    display:flex;
    align-items: center;
    justify-content: center;
-   width: 65px;
+   width: 70px;
    margin:10px;
    border:1px solid var(--silver);
  background: url('/src/assets/img/Default_Against_a_rich_luxurious_background_of_bright_vibrant_3.jpg')no-repeat center / cover;
-	height:65px;
+	height:70px;
 	list-style:none;
 	border-radius:10px;
     font-family: "serif";
