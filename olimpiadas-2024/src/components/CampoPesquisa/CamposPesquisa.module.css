@@ -1,5 +1,6 @@
-.Campo{
+.Campo{    
     width: 600px;
+    max-width: 70%;
     border-radius: 10px;
     padding:0 .5rem;
     margin: 3rem auto;
@@ -10,14 +11,15 @@
     justify-content: center;
     overflow: hidden;
     font-size: 1.5rem;
-  
+   
 }
 .CampoPesquisa{
     width:500px;
+    min-width: 100px;
     padding: 1rem;
     display: flex;
     border-radius: 5px;
-
+    position: relative;
 }
 .Busca{
     padding: 1rem;
@@ -34,6 +36,7 @@
 
 }
 .CampoPesquisa input{
+   
     outline: none;
     width: 100%;
     border: none;
@@ -42,41 +45,52 @@
  
 }
 .Lupa{
-  
+   
     width: 30px;
     
 }
 .DicaBox{
-    
+    border-radius: 5px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    padding: 1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    z-index: 1;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
     text-align:center;
 	color:var(--silver);
-}
-.Dica{
-    margin:auto;
-    flex-wrap: wrap-reverse;
     display:flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    flex-direction: column;
+}
+.Dica{
+    margin:auto;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
 	color:var(--silver);
 	text-shadow: 0 4px 6px black;
 	
 }
 .Dica li {
-   display:flex;
-   align-items: center;
-   justify-content: center;
-   width: 70px;
-   margin:10px;
+ 
    border:1px solid var(--silver);
  background: url('/src/assets/img/Default_Against_a_rich_luxurious_background_of_bright_vibrant_3.jpg')no-repeat center / cover;
-	height:70px;
 	list-style:none;
-	border-radius:10px;
+	border-radius:5px;
     font-family: "serif";
     font-weight:bold;
     font-size:12px;
-    padding: 5px;
+  
 }
 @media screen and (min-width:0) and (max-width:600px) {
     .Campo{
